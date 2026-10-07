@@ -17,7 +17,7 @@ Make marketing media from inside your AI assistant. This plugin connects Claude 
 
 ## Credits
 
-Generating images, video and ads spends credits from your UGC Fans account, and each one is quoted before anything is made. Website captures, launch films, clip finishing and transcripts run on UGC Fans' own compute and spend no credits. Plans and credits are described at https://ugc.fans/credits.
+Generating images, video and ads spends credits from your UGC Fans account, and each one is quoted before anything is made. Website captures, launch films, clip finishing and transcripts run on UGC Fans' own compute and spend no credits. Plans and credits are described at https://ugc.fans/pricing.
 
 ## Install
 
