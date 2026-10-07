@@ -21,11 +21,13 @@ Generating images, video and ads spends credits from your UGC Fans account, and 
 
 ## Install
 
-- Claude Code: `claude mcp add --transport http ugcfans https://mcp.ugc.fans/mcp`, or `claude plugin install ugcfans@ugcfans` once the marketplace that lists this folder is added. The plugin bundles the skills as well.
+- Claude Code: `claude mcp add --transport http ugcfans https://mcp.ugc.fans/mcp`, or the plugin from this repository's own marketplace: `claude plugin marketplace add ugcfans/gpt-plugin` then `claude plugin install ugcfans@ugcfans`.
 - Codex: `codex mcp add ugcfans --url https://mcp.ugc.fans/mcp`, then `codex mcp login ugcfans`.
-- Gemini CLI: `gemini extensions install` with the address of the repository that holds this folder.
+- Gemini CLI: `gemini extensions install https://github.com/ugcfans/gpt-plugin`.
 - Other clients: add https://mcp.ugc.fans/mcp as a remote Streamable HTTP server.
 
 ## License
 
 MIT. See `LICENSE`.
+
+Source: https://github.com/ugcfans/gpt-plugin, published from the UGC Fans product tree; a change lands here with the ship that made it.
