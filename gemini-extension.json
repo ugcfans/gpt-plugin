@@ -1,0 +1,10 @@
+{
+  "name": "ugcfans",
+  "version": "1.0.0",
+  "description": "Make UGC ads, product images, video and website launch films from inside your AI assistant. Every paid generation is quoted in credits first, and finished work comes back as a link.",
+  "mcpServers": {
+    "ugcfans": {
+      "httpUrl": "https://mcp.ugc.fans/mcp"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ugcfans",
+  "version": "1.0.0",
+  "description": "Make UGC ads, product images, video and website launch films from inside your AI assistant. Every paid generation is quoted in credits first, and finished work comes back as a link.",
+  "author": {
+    "name": "UGC Fans",
+    "url": "https://ugc.fans"
+  },
+  "homepage": "https://ugc.fans",
+  "repository": "https://github.com/ugcfans/plugin",
+  "license": "MIT",
+  "keywords": [
+    "ugc",
+    "ads",
+    "video",
+    "marketing",
+    "launch-film"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "UGC Fans",
+        "shortDescription": "Ads and films from a URL",
+        "longDescription": "UGC Fans makes short marketing media from inside ChatGPT and Codex. Give it a website and it photographs the page and makes a launch film in landscape, vertical or square. Give it a product and it makes a UGC-style ad from a template, with a script, a person and a voice. It also makes still images and short video clips, trims, captions, reformats and brands footage already in your UGC Fans library, and shares finished files by link. Paid generation spends credits from your UGC Fans account and always shows its cost before anything is made. Launch films, clip finishing and transcripts run on UGC Fans' own compute and spend none. Sign in with a UGC Fans account to use it. Limits: ads take minutes, links to finished files expire after a few hours, and footage is uploaded at ugc.fans/library first.",
+        "developerName": "UGC Fans",
+        "category": "Design",
+        "capabilities": [
+          "Capture websites",
+          "Make launch films",
+          "Make UGC ads",
+          "Make images and video",
+          "Finish clips"
+        ],
+        "websiteURL": "https://ugc.fans",
+        "defaultPrompt": [
+          "Make a launch film of my website, example.com.",
+          "Make a UGC ad for my product and tell me the cost first.",
+          "Trim, caption and reformat my latest clip for Reels."
+        ],
+        "brandColor": "#FF2E9A",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

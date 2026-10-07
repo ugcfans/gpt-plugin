@@ -1,0 +1,23 @@
+{
+  "name": "ugcfans",
+  "owner": {
+    "name": "UGC Fans",
+    "url": "https://ugc.fans"
+  },
+  "description": "UGC Fans for Claude Code: launch films, UGC ads, images, video and clip finishing.",
+  "plugins": [
+    {
+      "name": "ugcfans",
+      "source": "./",
+      "description": "Make UGC ads, product images, video and website launch films from inside your AI assistant. Every paid generation is quoted in credits first, and finished work comes back as a link.",
+      "category": "creative",
+      "tags": [
+        "ugc",
+        "ads",
+        "video",
+        "marketing",
+        "launch-film"
+      ]
+    }
+  ]
+}
